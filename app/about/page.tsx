@@ -12,17 +12,17 @@ import { sanityFetch } from "@/lib/sanity.client";
 import PageHeading from "@/app/components/shared/PageHeading";
 
 export const metadata: Metadata = {
-  title: "About | Victor Eke",
-  metadataBase: new URL("https://victoreke.com/about"),
+  title: "About | Carson Franklin",
+  metadataBase: new URL("https://carsonfranklin.com/about"),
   description:
     "Learn more about my skills, experience and technical background",
   openGraph: {
-    title: "About | Victor Eke",
-    url: "https://victoreke.com/about",
+    title: "About | Carson Franklin",
+    url: "https://carsonfranklin.com/about",
     description:
       "Learn more about my skills, experience and technical background",
     images:
-      "https://res.cloudinary.com/victoreke/image/upload/v1692635746/victoreke/og.png",
+      "https://res.cloudinary.com/carsonfranklin/image/upload/v1692635746/carsonfranklin/og.png",
   },
 };
 

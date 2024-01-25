@@ -15,12 +15,12 @@ const inter = Inter({
 });
 
 const options = {
-  title: "Victor Eke | Software Developer",
+  title: "Carson Franklin | Senior Cloud Architect",
   description:
-    "Victor Eke is a Software Developer and Technical Writer who is passionate about building solutions and contributing to open source communities",
-  url: "https://victoreke.com",
+    "Carson Franklin is a Senior Cloud Architect focused on creating modern and functional cloud systems for organizations looking to scale rapidly.",
+  url: "https://carsonfranklin.com",
   ogImage:
-    "https://res.cloudinary.com/victoreke/image/upload/v1692635746/victoreke/og.png",
+    "https://res.cloudinary.com/carsonfranklin/image/upload/v1692635746/carsonfranklin/og.png",
 };
 
 export const metadata: Metadata = {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: options.title,
     url: options.url,
-    siteName: "victoreke.com",
+    siteName: "carsonfranklin.com",
     locale: "en-US",
     type: "website",
     description: options.description,
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     canonical: options.url,
   },
   other: {
-    "google-site-verification": "IzcWMgn5Qjf-LCtA337KTGjivsf9bmod_1pZ-jxYQh8",
+    "google-site-verification": "NOPE",
   },
 };
 
@@ -62,7 +62,7 @@ export default function RootLayout({
       </body>
       <Script
         async
-        src="https://statsvictor.vercel.app/script.js"
+        src="https://statsdomain.vercel.app/script.js"
         data-website-id={process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID || ""}
       />
     </html>
