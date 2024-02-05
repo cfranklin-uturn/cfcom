@@ -9,6 +9,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        roboto: ["var(--roboto)"],
         incognito: ["var(--incognito)"],
         inter: ["var(--inter)"],
       },

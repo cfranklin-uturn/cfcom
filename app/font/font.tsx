@@ -1,6 +1,33 @@
 import localFont from "next/font/local";
 
-export const incognito = localFont({
+export const roboto = localFont({
+  src: [
+    {
+      path: "roboto-bold.woff2",
+      weight: "800",
+      style: "normal",
+    },
+    {
+      path: "roboto-light.woff2",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "roboto-medium.woff2",
+      weight: "600",
+      style: "normal",
+    },
+    {
+      path: "roboto-regular.woff2",
+      weight: "400",
+      style: "normal",
+    },
+  ],
+  variable: "--roboto",
+  display: "swap",
+});
+
+/* export const incognito = localFont({
   src: [
     {
       path: "incognito_bold.woff2",
@@ -25,7 +52,7 @@ export const incognito = localFont({
   ],
   variable: "--incognito",
   display: "swap",
-});
+}); */
 
 export const gitlabmono = localFont({
   src: [

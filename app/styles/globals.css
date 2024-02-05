@@ -14,11 +14,14 @@ body {
   background-position: 0 0;
 }
 
-h1,
+h1 {
+  font-family: var(--roboto), "roboto", sans-serif;
+}
+
 h2,
 h3,
 h4 {
-  font-family: var(--incognito), "Inter", sans-serif;
+  font-family: var(--roboto), "roboto", sans-serif;
 }
 
 .path {

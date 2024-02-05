@@ -2,8 +2,9 @@ import "@/app/styles/globals.css";
 import Script from "next/script";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { incognito } from "./font/font";
 import { gitlabmono } from "./font/font";
+import { roboto } from "./font/font";
+import { Roboto } from "next/font/google";
 import Navbar from "./components/global/Navbar";
 import Footer from "./components/global/Footer";
 import { Providers } from "./providers";
@@ -13,6 +14,13 @@ const inter = Inter({
   display: "swap",
   variable: "--inter",
 });
+
+const roboto = Roboto({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--roboto",
+});
+
 
 const options = {
   title: "Carson Franklin | Senior Cloud Architect",
@@ -52,7 +60,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${incognito.variable} ${inter.className} ${gitlabmono.variable} dark:bg-zinc-900 bg-white dark:text-white text-zinc-700`}
+        className={`${roboto.variable} ${inter.className} ${roboto.className} ${gitlabmono.variable} dark:bg-zinc-900 bg-white dark:text-white text-zinc-700`}
       >
         <Providers>
           <Navbar />
